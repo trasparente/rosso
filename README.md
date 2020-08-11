@@ -7,7 +7,7 @@ Rouge previews
   `rougify style <theme> --scope=.<theme slug> > _sass/<theme>.scss`
 4. Include css files in `master.sass`  
   ```liquid
-  {% raw %}{% for t in site.data.rouge %}
+  {% for t in site.data.rouge %}
   @import {{ t.theme }}
-  {% endfor %}{% endraw %}
+  {% endfor %}
   ```
