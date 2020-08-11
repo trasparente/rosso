@@ -3,6 +3,7 @@
 
 # Rouge version {{ site.github.versions |inspect }}
 {:.no_toc}
+- <a href="{{ site.github.repository_url }}">GitHub</a>
 <aside class="right">
 * toc
 {:toc}
