@@ -1,7 +1,7 @@
 ---
 ---
 
-# Rouge version {{ site.github.versions |inspect }}
+# Rouge version {{ site.github.versions.rouge }}
 {:.no_toc}
 - <a href="{{ site.github.repository_url }}">GitHub</a>
 <aside class="right">
