@@ -1,0 +1,12 @@
+---
+---
+
+{% for t in site.data.rouge %}
+@import {{ t.theme }}
+{% endfor %}
+
+body
+  > div
+    padding: 1rem
+figure
+  margin: 0

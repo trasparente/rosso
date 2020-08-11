@@ -1,0 +1,6 @@
+plugins:
+  - jekyll-github-metadata
+  - jekyll-default-layout
+
+kramdown:
+  parse_block_html: true
