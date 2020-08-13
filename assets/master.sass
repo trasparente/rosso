@@ -2,7 +2,10 @@
 ---
 
 {% for t in site.data.rouge %}
-@import {{ t.theme }}
+@import rouge/{{ t.theme }}
+{% endfor %}
+{% for t in site.data.pygments %}
+@import pygments/{{ t.theme }}
 {% endfor %}
 
 body

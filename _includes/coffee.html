@@ -1,0 +1,3 @@
+matchMedia = (e) ->
+  $.grep(document.styleSheets, (css) => css.title == "dark #{e}")[0].disabled = false
+  $.grep(document.styleSheets, (css) => css.title == "dark #{!e}")[0].disabled = true
