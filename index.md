@@ -3,7 +3,7 @@
 
 - <a href="{{ site.github.repository_url }}">GitHub repository</a>
 - Rouge version {{ site.github.versions.rouge }}
-- Jekyll version {{ site.github.versions.rouge }}
+- Jekyll version {{ site.github.versions.jekyll }}
 <aside class="right">
 * toc
 {:toc}
